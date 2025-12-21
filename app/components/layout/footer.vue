@@ -52,16 +52,16 @@
           </h4>
           <div class="grid grid-cols-2 gap-3">
             <div class="rounded-lg p-2 flex items-center justify-center h-12 shadow-sm">
-              <NuxtImg src="/assets/qris.png" class="max-h-full" />
+              <NuxtImg src="/assets/qris.png" class="w-20" />
             </div>
             <div class="rounded-lg p-2 flex items-center justify-center h-12 shadow-sm">
-              <NuxtImg src="/assets/mastercard.png" class="max-h-full" />
+              <NuxtImg src="/assets/mastercard.png" class="w-12" />
             </div>
             <div class="rounded-lg p-2 flex items-center justify-center h-12 shadow-sm">
-              <NuxtImg src="/assets/gopay.png" class="max-h-full" />
+              <NuxtImg src="/assets/gopay.png" class="w-20" />
             </div>
             <div class="rounded-lg p-2 flex items-center justify-center h-12 shadow-sm">
-              <NuxtImg src="/assets/visa.png" class="max-h-full" />
+              <NuxtImg src="/assets/visa.png" class="w-12" />
             </div>
           </div>
         </div>
