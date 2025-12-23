@@ -1,6 +1,5 @@
 <template>
   <UApp>
-    <LayoutHeader /> 
     <LayoutStickyTicket />
     <UMain>
       <NuxtLayout>

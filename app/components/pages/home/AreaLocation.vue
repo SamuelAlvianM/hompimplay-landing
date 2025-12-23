@@ -2,11 +2,11 @@
   <section class="py-20">
     <UContainer>
       <div class="mb-10">
-        <h2 class="text-4xl text-white font-bold flex items-center gap-3 leading-none">
-          <IconTriangle />
+        <h2 class="text-2xl sm:text-4xl text-white font-bold flex items-center gap-3 leading-none">
+          <IconTriangle size="24" />
           <span class="inline-block">Area, lokasi dan Jam Operasional Kami</span>
         </h2>
-        <p class="text-white/70 mt-2 text-xl">Kami tidak hanya punya satu dunia, tapi kami punya banyak!</p>
+        <p class="text-white/70 mt-2 text-md sm:text-xl">Kami tidak hanya punya satu dunia, tapi kami punya banyak!</p>
       </div>
 
 
@@ -15,6 +15,8 @@
           src="/assets/map.png" 
           alt="Map Wisata"
           class="w-full h-auto transition-transform duration-700 ease-in-out group-hover:scale-105 cursor-zoom-in"
+          format="webp"
+          quality="80"          
         />
         <div class="absolute inset-0 pointer-events-none flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
         </div>

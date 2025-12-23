@@ -4,7 +4,10 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
         
         <div class="lg:col-span-1">
-          <NuxtImg src="/favicon.ico" class="h-16 w-auto mb-4" alt="HomPim Play Logo" />
+          <NuxtImg src="/favicon.ico" class="h-16 w-auto mb-4" alt="HomPim Play Logo" 
+          format="webp"
+          quality="80"
+          />
           <p class="text-[#9333ea] font-bold text-lg whitespace-nowrap"> Smart Play for Happy Day</p>
           <!-- <p class="text-[#9333ea] font-bold text-lg">Smart Play for Happy Day</p> -->
         </div>
@@ -52,16 +55,28 @@
           </h4>
           <div class="grid grid-cols-2 gap-3">
             <div class="rounded-lg p-2 flex items-center justify-center h-12 shadow-sm">
-              <NuxtImg src="/assets/qris.png" class="w-20" />
+              <NuxtImg src="/assets/qris.png" class="w-20" 
+          format="webp"
+          quality="80"              
+              />
             </div>
             <div class="rounded-lg p-2 flex items-center justify-center h-12 shadow-sm">
-              <NuxtImg src="/assets/mastercard.png" class="w-12" />
+              <NuxtImg src="/assets/mastercard.png" class="w-12" 
+          format="webp"
+          quality="80"              
+              />
             </div>
             <div class="rounded-lg p-2 flex items-center justify-center h-12 shadow-sm">
-              <NuxtImg src="/assets/gopay.png" class="w-20" />
+              <NuxtImg src="/assets/gopay.png" class="w-20" 
+          format="webp"
+          quality="80"              
+              />
             </div>
             <div class="rounded-lg p-2 flex items-center justify-center h-12 shadow-sm">
-              <NuxtImg src="/assets/visa.png" class="w-12" />
+              <NuxtImg src="/assets/visa.png" class="w-12" 
+          format="webp"
+          quality="80"              
+              />
             </div>
           </div>
         </div>

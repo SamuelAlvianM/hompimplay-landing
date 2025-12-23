@@ -3,7 +3,7 @@
     <UContainer>
       <div class="mb-8 sm:mb-10 px-4 sm:px-0">
         <h2 class="text-2xl sm:text-3xl md:text-4xl text-white font-bold flex items-center gap-2 sm:gap-3 leading-none">
-          <IconTriangle class="w-6 h-6 sm:w-8 sm:h-8" />
+          <IconTriangle size="24" />
           <span class="inline-block">Harga Tiket</span>
         </h2>
         <p class="text-white/70 mt-2 text-base sm:text-lg md:text-xl">
@@ -19,6 +19,8 @@
         >
           <NuxtImg 
             :src="item.bgImage" 
+          format="webp"
+          quality="80"            
             class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-90 w-[340px] md:w-[400px] h-[340px] md:h-[400px] object-contain"
           />
 
@@ -32,6 +34,8 @@
                         md:translate-x-[-5%] 
                         lg:translate-x-[-25%] 
                         xl:translate-x-[-20%]" 
+          format="webp"
+          quality="80"                        
                 />
             </div>
 

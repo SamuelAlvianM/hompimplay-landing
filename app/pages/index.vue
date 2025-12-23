@@ -13,4 +13,7 @@
 definePageMeta({
   layout: 'background'
 })
+useSeoMeta({
+  title: 'HomPim Play',
+})
 </script>

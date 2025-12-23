@@ -109,7 +109,7 @@ const mobileMenuOpen = ref(false)
 const menuItems = computed(() => [
   { label: 'Beranda', to: '/' },
   { label: 'Tiket', to: '/#tiket' },
-  { label: 'HomPim Store', to: '/store' },
+  { label: 'HomPim Store', to: '/hompim-store' },
   { label: 'Park', to: '/park' },
   { label: 'Kontak', to: '/kontak' },
   { label: 'Tentang Kami', to: '/tentang' },

@@ -8,8 +8,9 @@
       quality="80"
       alt="Background"
     />
-    
+    <LayoutHeader /> 
     <div class="content-layer relative z-10 flex flex-col min-h-screen">
+    
       <slot />
     </div>
   </div>

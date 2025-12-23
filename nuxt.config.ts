@@ -2,7 +2,11 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
-  css: ['~/assets/css/main.css'],
+  alias: {
+    '~': './',
+    '@': './'
+  },
+  css: ['@/assets/css/main.css'],
   modules: [
     '@nuxt/ui',
     '@nuxt/image',

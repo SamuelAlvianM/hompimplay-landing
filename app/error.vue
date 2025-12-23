@@ -4,7 +4,10 @@
 
     <UMain class="min-h-screen flex items-center justify-center py-[80px] ">
       <div class="fixed inset-0 -z-10">
-        <NuxtImg src="/bg/Background.png" class="w-full h-full object-cover" />
+        <NuxtImg src="/bg/Background.png"     class="w-full h-full object-cover"
+          format="webp"
+          quality="80"
+            />
       </div>
 
       <div class="text-center px-4">

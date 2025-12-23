@@ -2,11 +2,11 @@
   <section class="py-24 overflow-hidden font-['Nunito']">
     <UContainer>
       <div class="mb-10">
-        <h2 class="text-3xl md:text-4xl text-white font-bold flex items-center gap-3 leading-none">
-          <IconTriangle size="32" />
+        <h2 class="text-2xl sm:text-4xl text-white font-bold flex items-center gap-3 leading-none">
+          <IconTriangle size="24" />
           <span class="inline-block">Sudah Siap Berpetualang?</span>
         </h2>
-        <p class="text-white/70 mt-2 text-lg md:text-xl">
+        <p class="text-white/70 mt-2 text-md sm:text-xl">
           Buat akun dan jelajahi berbagai macam wahana dengan keunikannya masing-masing
         </p>
       </div>
@@ -24,7 +24,10 @@
                 class="rounded-lg py-3 px-6 flex justify-center items-center gap-3 shadow-lg text-black bg-white hover:bg-gray-100 transition-all font-bold"
               >
                 <template #leading>
-                  <NuxtImg src="/assets/googleIcon.png" class="w-5 h-5" />
+                  <NuxtImg src="/assets/googleIcon.png" class="w-5 h-5" 
+                  format="webp"
+                  quality="80"                  
+                  />
                 </template>
                 Masuk dengan Google
               </UButton>
@@ -49,16 +52,23 @@
             <NuxtImg 
               src="/assets/ad.png" 
               class="absolute bottom-[-30%] left-[-5%] h-[80%] xs:h-[90%] md:h-[130%] w-auto object-contain object-bottom drop-shadow-2xl"
+              format="webp"
+              quality="80"
             />
 
             <div class="absolute -bottom-[20%] md:translate-y-[-24px] left-[5%] md:left-[10%] md:bottom-[-30%] flex gap-2 items-end">
               <NuxtImg 
                 src="/assets/ad2.png" 
                 class="w-28 xs:w-24 md:w-36 h-auto object-contain drop-shadow-lg"
+                format="webp"
+                quality="80"                
               />
               <NuxtImg 
                 src="/assets/ad3.png" 
                 class="w-28 xs:w-24 md:w-36 h-auto object-contain drop-shadow-lg"
+                format="webp"
+                quality="80"
+
               />
             </div>
 
