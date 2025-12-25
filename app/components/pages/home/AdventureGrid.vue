@@ -14,7 +14,8 @@
           src="/assets/pt/1.png" 
           class="w-full h-full object-cover translate-y-[-20%] transition-transform duration-700 group-hover:scale-110"
               format="webp"
-              quality="80"           
+              quality="80" 
+              sizes="sm:100vw md:50vw lg:800px"          
         />
         <NuxtImg 
           src="/assets/pt/blue.png" 

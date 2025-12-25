@@ -55,7 +55,7 @@
           </h4>
           <div class="grid grid-cols-2 gap-3">
             <div class="rounded-lg p-2 flex items-center justify-center h-12 shadow-sm">
-              <NuxtImg src="/assets/qris.png" class="w-20" 
+              <NuxtImg  src="/assets/qris.png" class="w-20" 
           format="webp"
           quality="80"              
               />
@@ -73,7 +73,7 @@
               />
             </div>
             <div class="rounded-lg p-2 flex items-center justify-center h-12 shadow-sm">
-              <NuxtImg src="/assets/visa.png" class="w-12" 
+              <NuxtImg src="/assets/visa.webp" class="w-12" 
           format="webp"
           quality="80"              
               />
