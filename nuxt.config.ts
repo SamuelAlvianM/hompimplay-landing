@@ -1,4 +1,9 @@
 export default defineNuxtConfig({
+  app: {
+    head: {
+      htmlAttrs: { lang: 'id' },
+    }
+  },
   future: {
     compatibilityVersion: 4,
   },
@@ -12,21 +17,17 @@ export default defineNuxtConfig({
     '@nuxt/image',
     '@nuxtjs/google-fonts'
   ],
+
   googleFonts: {
-      families: {
-        Nunito: [400, 600, 700],
-      },
-      display: 'swap',
+    families: {
+      Nunito: [400, 600, 700],
     },
-
-  compatibilityDate: '2025-07-15',
-  devtools: { enabled: true },
-
-  runtimeConfig: {
-    apiUrl: process.env.API_BASE_URL
+    display: 'swap',
+    preload: true,
+    download: true,
   },
 
-image: {
+  image: {
     provider: 'ipx',
     format: ['webp'],
     quality: 80,
@@ -38,23 +39,34 @@ image: {
       xl: 1280,
     },
     presets: {
-      cover: {
+      hero: {
         modifiers: {
           format: 'webp',
-          quality: 80
+          quality: 80,
+          width: 500, 
+          height: 500
         }
       }
     }
   },
 
+  sourcemap: {
+    server: false,
+    client: false
+  },
+
   vite: {
-    server: {
-      hmr: {
-        // Memaksa Vite menggunakan port yang sama dengan server utama
-        // Ini sering memperbaiki masalah path "/&/" di mobile
-        protocol: 'ws',
-        port: 3000 
+    build: {
+      chunkSizeWarningLimit: 500,
+      rollupOptions: {
+        output: {
+          manualChunks(id) {
+            if (id.includes('node_modules')) {
+              return 'vendor';
+            }
+          }
+        }
       }
     }
-  },
+  }
 })

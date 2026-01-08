@@ -13,10 +13,12 @@
       <div class="relative overflow-hidden mb-16 group">
         <NuxtImg 
           src="/assets/map.png" 
-          alt="Map Wisata"
           class="w-full h-auto transition-transform duration-700 ease-in-out group-hover:scale-105 cursor-zoom-in"
           format="webp"
-          quality="80"          
+          quality="80"
+          sizes="xs:100vw sm:100vw md:50vh"
+          loading="lazy"
+          alt="Map Wisata"
         />
         <div class="absolute inset-0 pointer-events-none flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity">
         </div>

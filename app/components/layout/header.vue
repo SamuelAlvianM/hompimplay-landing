@@ -110,7 +110,7 @@ const menuItems = computed(() => [
   { label: 'Beranda', to: '/' },
   { label: 'Tiket', to: '/#tiket' },
   { label: 'HomPim Store', to: '/hompim-store' },
-  { label: 'Park', to: '/park' },
+  { label: 'Farm', to: '/farm' },
   { label: 'Kontak', to: '/kontak' },
   { label: 'Tentang Kami', to: '/tentang' },
   { label: 'Blog', to: '/blog' },
@@ -133,7 +133,7 @@ onMounted(() => {
   document.addEventListener('keydown', handleEscape)
   
   // Intersection Observer for active sections
-  const sectionIds = ['tiket', 'park', 'kontak']
+  const sectionIds = ['tiket', 'farm', 'kontak']
   
   const observerOptions = {
     root: null,
@@ -180,12 +180,12 @@ watch(mobileMenuOpen, (isOpen) => {
   scroll-behavior: smooth !important;
 }
 
-:global(#tiket), :global(#park), :global(#kontak) {
+:global(#tiket), :global(#farm), :global(#kontak) {
   scroll-margin-top: 90px;
 }
 
 @media (max-width: 768px) {
-  :global(#tiket), :global(#park), :global(#kontak) {
+  :global(#tiket), :global(#farm), :global(#kontak) {
     scroll-margin-top: 70px;
   }
 }

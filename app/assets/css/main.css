@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap');
 @import "tailwindcss"; 
 @import "@nuxt/ui";
 @tailwind base;
@@ -7,15 +6,12 @@
 
 :root {
   --hover-button: #A0D033;
+  --ijo-terangs: #A0D033;
   --bg-header: rgba(0, 0, 0, 0.12);
   --bg-header-blur: 20px;
   --ui-header-height: --spacing(24);
-  font-family: 'Nunito', sans-serif;
 }
 
-button, span, div {
-  font-family: 'Nunito', sans-serif !important;
-}
 
 body {
   font-family: 'Nunito', sans-serif !important;
@@ -26,4 +22,19 @@ body {
 a {
   color: inherit;
   text-decoration: none;
+}
+
+.page-enter-active,
+.page-leave-active {
+  transition: all 0.5s ease;
+}
+
+.page-enter-from {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.page-leave-to {
+  opacity: 0;
+  transform: translateY(-10px);
 }

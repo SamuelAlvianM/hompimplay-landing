@@ -20,7 +20,10 @@
           <NuxtImg 
             :src="item.bgImage" 
           format="webp"
-          quality="80"            
+          quality="80"
+          sizes="xs:100vw sm:100vw md:20vw"
+          loading="lazy"
+          alt="background gambar tiket"
             class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 rotate-90 w-[340px] md:w-[400px] h-[340px] md:h-[400px] min-[1px]:max-[390px]:w-[120px] object-contain"
           />
 
@@ -36,8 +39,11 @@
                         md:translate-x-[-25%] 
                         lg:translate-x-[-50%] 
                         xl:translate-x-[-30%]" 
-          format="webp"
-          quality="80"                        
+                  format="webp"
+                  quality="80"
+                  sizes="xs:100vw sm:100vw md:20vw"
+                  loading="lazy"
+                  alt="logo hompimplay putih"
                 />
             </div>
 

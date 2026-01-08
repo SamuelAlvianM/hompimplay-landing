@@ -25,8 +25,11 @@
               >
                 <template #leading>
                   <NuxtImg src="/assets/googleIcon.png" class="w-5 h-5" 
-                  format="webp"
-                  quality="80"                  
+                    format="webp"
+                    quality="80"
+                    sizes="xs:100vw sm:100vw md:50vw"
+                    loading="lazy"
+                    alt="Icon Google"                        
                   />
                 </template>
                 Masuk dengan Google
@@ -54,6 +57,9 @@
               class="absolute bottom-[-30%] left-[-5%] h-[80%] xs:h-[90%] md:h-[130%] w-auto object-contain object-bottom drop-shadow-2xl"
               format="webp"
               quality="80"
+              sizes="xs:100vw sm:100vw md:50vw"
+              loading="lazy"
+              alt="gambar utama ad" 
             />
 
             <div class="absolute -bottom-[20%] md:translate-y-[-24px] left-[5%] md:left-[10%] md:bottom-[-30%] flex gap-2 items-end">
@@ -61,14 +67,19 @@
                 src="/assets/ad2.png" 
                 class="w-28 xs:w-24 md:w-36 h-auto object-contain drop-shadow-lg"
                 format="webp"
-                quality="80"                
+                quality="80"
+                sizes="xs:100vw sm:100vw md:50vw"
+                loading="lazy"
+                alt="gambar 2 ad" 
               />
               <NuxtImg 
                 src="/assets/ad3.png" 
                 class="w-28 xs:w-24 md:w-36 h-auto object-contain drop-shadow-lg"
                 format="webp"
                 quality="80"
-
+                sizes="xs:100vw sm:100vw md:50vw"
+                loading="lazy"
+                alt="gambar monyet ad" 
               />
             </div>
 

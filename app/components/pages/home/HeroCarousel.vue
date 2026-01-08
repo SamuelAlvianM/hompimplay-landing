@@ -28,11 +28,12 @@
         <NuxtImg 
           :src="item.image" 
           class="w-full h-full object-cover object-top" 
-          :sizes="sizes"
+          widths="640 1024 1920 2560"
           format="webp"
           quality="80"
-          widths="640 1024 1920 2560"
+          sizes="xs:100vw sm:100vw"
           loading="lazy"
+          alt="slider"
         />
       </div>
     </UCarousel>

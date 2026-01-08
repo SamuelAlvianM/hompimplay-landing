@@ -4,9 +4,12 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-12 mb-16">
         
         <div class="lg:col-span-1">
-          <NuxtImg src="/favicon.ico" class="h-16 w-auto mb-4" alt="HomPim Play Logo" 
+          <NuxtImg src="/favicon.ico" class="h-16 w-auto mb-4"
           format="webp"
           quality="80"
+          sizes="xs:100vw sm:100vw md:400px"
+          loading="lazy"
+          alt="HomPim Play Logo" 
           />
           <p class="text-[#9333ea] font-bold text-lg whitespace-nowrap"> Smart Play for Happy Day</p>
           <!-- <p class="text-[#9333ea] font-bold text-lg">Smart Play for Happy Day</p> -->
@@ -55,27 +58,39 @@
           </h4>
           <div class="grid grid-cols-2 gap-3">
             <div class="rounded-lg p-2 flex items-center justify-center h-12 shadow-sm">
-              <NuxtImg  src="/assets/qris.png" class="w-20" 
+              <NuxtImg  src="/assets/qris.svg" class="w-16" 
           format="webp"
-          quality="80"              
+          quality="80"
+          sizes="xs:100vw sm:100vw md:400px"
+          loading="lazy"
+          alt="HomPim Play QRIS"              
               />
             </div>
             <div class="rounded-lg p-2 flex items-center justify-center h-12 shadow-sm">
               <NuxtImg src="/assets/mastercard.png" class="w-12" 
           format="webp"
-          quality="80"              
+          quality="80"
+          sizes="xs:100vw sm:100vw md:400px"
+          loading="lazy"
+          alt="HomPim Play MASTERCARD" 
               />
             </div>
             <div class="rounded-lg p-2 flex items-center justify-center h-12 shadow-sm">
               <NuxtImg src="/assets/gopay.png" class="w-20" 
           format="webp"
-          quality="80"              
+          quality="80"
+          sizes="xs:100vw sm:100vw md:400px"
+          loading="lazy"
+          alt="HomPim Play GOPAY"                   
               />
             </div>
             <div class="rounded-lg p-2 flex items-center justify-center h-12 shadow-sm">
-              <NuxtImg src="/assets/visa.webp" class="w-12" 
+              <NuxtImg src="/assets/visa.png" class="w-12" 
           format="webp"
-          quality="80"              
+          quality="80"
+          sizes="xs:100vw sm:100vw md:400px"
+          loading="lazy"
+          alt="HomPim Play VISA"                    
               />
             </div>
           </div>

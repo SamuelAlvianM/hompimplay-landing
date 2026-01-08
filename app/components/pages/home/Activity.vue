@@ -17,7 +17,10 @@
       >
         <NuxtImg :src="act.image" class="absolute inset-0 w-full h-full object-cover z-0" 
           format="webp"
-          quality="80"        
+          quality="80"
+          sizes="xs:100vw sm:100vw md:50vw"
+          loading="lazy"
+          alt="aktivitas"                  
         />
         
         <div 
@@ -35,7 +38,10 @@
           >
             <NuxtImg :src="act.logo" class="h-28 w-auto object-contain" 
           format="webp"
-          quality="80"            
+          quality="80"
+          sizes="xs:100vw sm:100vw md:50vw"
+          loading="lazy"
+          alt="logo aktivitas" 
             />
           </div>
 
@@ -48,7 +54,10 @@
           >
             <NuxtImg :src="act.maskot" :class="['w-auto object-contain', act.maskotClass || 'h-44']" 
           format="webp"
-          quality="80"            
+          quality="80"
+          sizes="xs:100vw sm:100vw md:50vw"
+          loading="lazy"
+          alt="maskot" 
             />
           </div>
         </div>

@@ -4,11 +4,12 @@
       src="/assets/bg/Background.png" 
       class="background-image"
       format="webp"
-      preload
       quality="80"
+      sizes="xs:100vw sm:100vw"
+      loading="lazy"
       alt="Background"
     />
-    <LayoutHeader /> 
+    <LazyLayoutHeader />
     <div class="content-layer relative z-10 flex flex-col min-h-screen">
     
       <slot />

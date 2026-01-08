@@ -21,7 +21,10 @@
       <NuxtImg 
         src="/favicon.ico" 
         alt="HomPim Play"
-        preload
+        sizes="xs:100vw sm:50vw md:400px"
+          preload              
+          fetchpriority="high"              
+          loading="eager"              
         :modifiers="{ format: 'webp', quality: 80 }"
         class="max-[390px]:w-[100px] w-16 h-8 sm:w-20 sm:h-10 md:w-24 md:h-12 lg:w-28 lg:h-14 object-contain"
       />

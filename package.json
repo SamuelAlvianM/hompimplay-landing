@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "build": "nuxt build",
+    "buildwsl": "NODE_OPTIONS='--no-deprecation' rm -rf .nuxt .output && nuxt build",
     "dev": "nuxt dev --host 0.0.0.0",
     "generate": "nuxt generate",
     "preview": "nuxt preview",

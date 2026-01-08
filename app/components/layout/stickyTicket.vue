@@ -9,7 +9,10 @@
         src="/assets/tiket.png" 
         class="absolute inset-0 w-full h-full object-contain z-0"
           format="webp"
-          quality="80"      
+          quality="80"
+          sizes="xs:100vw sm:100vw md:400px"
+          loading="lazy"
+          alt="HomPim Play tiket1"            
         />
 
       <div class="relative z-20 w-full h-full flex items-center">
@@ -20,7 +23,10 @@
             src="/favicon.ico" 
             class="w-8 h-4 sm:w-10 sm:h-5 md:w-12 md:h-6 transition-all duration-1000 transform rotate-0 group-hover:rotate-4 group-active:rotate-4 opacity-10 group-hover:opacity-100 group-active:opacity-100"
           format="webp"
-          quality="80"          
+          quality="80"
+          sizes="xs:100vw sm:100vw md:400px"
+          loading="lazy"
+          alt="HomPim Play Logo hovered" 
             />
         </div>
 

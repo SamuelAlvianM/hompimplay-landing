@@ -13,15 +13,20 @@
         <NuxtImg 
           src="/assets/pt/1.png" 
           class="w-full h-full object-cover translate-y-[-20%] transition-transform duration-700 group-hover:scale-110"
-              format="webp"
-              quality="80" 
-              sizes="sm:100vw md:50vw lg:800px"          
+          format="webp"
+          quality="80"
+          sizes="xs:100vw sm:100vw md:50vw"
+          loading="lazy"
+          alt="gambar dalam background 1"
         />
         <NuxtImg 
           src="/assets/pt/blue.png" 
           class="absolute inset-0 w-full h-full translate-y-[50%] sm:translate-y-[55%]" 
-              format="webp"
-              quality="80"          
+          format="webp"
+          quality="80"
+          sizes="xs:100vw sm:100vw md:50vw"
+          loading="lazy"
+          alt="gambar overlay biru"
         />
         <div class="absolute inset-x-0 bottom-0 h-[50%] w-[110%] sm:h-[40%] p-6 flex flex-col justify-start">
           <div class="mb-2 sm:mb-4">
@@ -50,13 +55,19 @@
               src="/assets/pt/2.png" 
               class="w-full h-full object-cover translate-x-[-25%] transition-transform duration-700 group-hover:scale-110" 
               format="webp"
-              quality="80"              
+              quality="80"
+              sizes="xs:100vw sm:100vw md:50vw"
+              loading="lazy"
+              alt="gambar dalam background 2"      
             />
             <NuxtImg 
               src="/assets/pt/pink.png" 
               class="absolute inset-0 w-full h-full translate-x-[38%]" 
               format="webp"
-              quality="80"              
+              quality="80"
+              sizes="xs:100vw sm:100vw md:50vw"
+              loading="lazy"
+              alt="gambar overlay pink"
             />
             <div class="absolute inset-x-0 top-0 left-[38%] h-[45%] px-6 py-2 sm:py-6 flex flex-col justify-start">
               <div class="mb-2 sm:mb-4 gap-4">
@@ -84,13 +95,19 @@
               src="/assets/pt/3.png" 
               class="w-full h-full object-cover translate-x-[-25%] transition-transform duration-700 group-hover:scale-110" 
               format="webp"
-              quality="80"              
+              quality="80"
+              sizes="xs:100vw sm:100vw md:50vw"
+              loading="lazy"
+              alt="gambar dalam background 3"
             />
             <NuxtImg 
               src="/assets/pt/green.png" 
               class="absolute inset-0 w-full h-full translate-x-[38%]" 
               format="webp"
-              quality="80"              
+              quality="80"
+              sizes="xs:100vw sm:100vw md:50vw"
+              loading="lazy"
+              alt="gambar overlay hijau"
             />
             <div class="absolute inset-x-0 top-0 left-[40%] h-[35%] px-6 py-2 sm:py-6 flex flex-col justify-start">
               <div class="mb-2 sm:mb-4 gap-4">
