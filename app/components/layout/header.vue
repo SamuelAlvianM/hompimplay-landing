@@ -23,7 +23,7 @@
         </nav>
 
         <UButton
-          to="/akun"
+          to="https://member.hompimplay.id"
           label="Buat Akun"
           class="bg-[#A0D033] hover:bg-[#8eb82b] !text-black px-6 py-2 transition-colors"
         />
